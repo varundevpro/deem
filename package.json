@@ -2,25 +2,46 @@
   "name": "quotes",
   "version": "1.0.0",
   "private": true,
-  "description": "Quotes",
+  "description": "A simple quotes app which consists of handpicked and curated quotes. This can be installed as a standalone application from your browser.",
   "author": "varundevpro",
+  "main": "gatsby-config.js",
   "keywords": [
     "gatsby"
   ],
   "scripts": {
     "develop": "gatsby develop",
-    "start": "gatsby develop",
+    "start": "gatsby develop --host 0.0.0.0",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "create": "node ./scripts/create.js"
   },
   "dependencies": {
+    "@fontsource/playfair-display": "^4.4.5",
+    "@fontsource/roboto": "^4.4.5",
+    "@heroicons/react": "^1.0.1",
     "gatsby": "^3.6.2",
     "gatsby-plugin-manifest": "^3.7.1",
+    "gatsby-plugin-offline": "^4.7.1",
+    "gatsby-plugin-page-transitions": "^1.0.8",
     "gatsby-plugin-react-helmet": "^4.7.1",
     "gatsby-plugin-sitemap": "^4.3.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "react-helmet": "^6.1.0"
+    "react-helmet": "^6.1.0",
+    "uuid": "^3.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.28.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "eslint-plugin-react": "^7.24.0",
+    "prettier": "^2.3.1",
+    "prompt": "^1.1.0"
   }
 }
