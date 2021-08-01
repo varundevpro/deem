@@ -27,20 +27,20 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-c743e6bafcb42eccb85d.js"
-  },
-  {
-    "url": "styles.687ac9c793a1e9f72c0a.css"
+    "url": "webpack-runtime-fefa7cab94954a05cca8.js"
   },
   {
     "url": "framework-11c502cb296d783e31f7.js"
   },
   {
-    "url": "app-efc66b7cedf563a08ef4.js"
+    "url": "styles.687ac9c793a1e9f72c0a.css"
+  },
+  {
+    "url": "app-dd41322c9130a93b66c1.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "fddc453a5c1cd3cac6148ddb8dd286fd"
+    "revision": "cdf68952e9aac5eb04d5cfa570b6699a"
   },
   {
     "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-1d8df30d050d33a356f9.js"
@@ -57,7 +57,7 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/app-data.json",
-    "revision": "038698dad26d85c1144a533581e682d4"
+    "revision": "64544297ec5f15f26a67314073dc3ae3"
   },
   {
     "url": "page-data/404.html/page-data.json",
@@ -67,12 +67,16 @@ self.__precacheManifest = [
     "url": "component---src-templates-quote-jsx-109e687d186e5157ccb1.js"
   },
   {
+    "url": "page-data/anon-1/page-data.json",
+    "revision": "c6752d8d4766cb17b7b4c42f08083352"
+  },
+  {
     "url": "page-data/fear-street-1/page-data.json",
-    "revision": "13a16710c56ce1c29fd044a4da1f36ea"
+    "revision": "c075f7dcaca1b731c1d0f12eedc3c602"
   },
   {
     "url": "page-data/frank-1/page-data.json",
-    "revision": "36569c5995e0811646c0540db6d5e723"
+    "revision": "210a7702cd5085fa7ad19839f0213dff"
   },
   {
     "url": "page-data/index/page-data.json",
@@ -80,27 +84,123 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/interstellar-1/page-data.json",
-    "revision": "a8a141c21d85cac7eee1348565504de0"
+    "revision": "3eaec28be64b860fd67ffb7f4cc5a818"
   },
   {
     "url": "page-data/interstellar-2/page-data.json",
-    "revision": "44104328295474109af76f1e2b0b427d"
+    "revision": "7bc221b5c71dc70d915146d0a6ba2f4e"
   },
   {
     "url": "page-data/interstellar-3/page-data.json",
-    "revision": "35c3cdf956cd51e7c83cce157ca63748"
+    "revision": "325076305d50c55231a4290cee682ae9"
   },
   {
     "url": "page-data/interstellar-4/page-data.json",
-    "revision": "7528ddaead5a47522986affe08a916ad"
+    "revision": "c479f3a404c1d27875c7539c59b0f6f6"
   },
   {
     "url": "page-data/interstellar-5/page-data.json",
-    "revision": "8d8b4214cb8721c94974485db75869e5"
+    "revision": "3630a1676ae3ebfbdf365735302679ba"
   },
   {
     "url": "page-data/interstellar-6/page-data.json",
-    "revision": "e319f3077a5ffc429dc6d7a5bd3cd256"
+    "revision": "816e49c3160295d7b71e355335338c90"
+  },
+  {
+    "url": "page-data/joker-1/page-data.json",
+    "revision": "29150e7de13d8bb852017c701c685947"
+  },
+  {
+    "url": "page-data/joker-10/page-data.json",
+    "revision": "edb1e5da94c0e2d61e78f4b77bc4e309"
+  },
+  {
+    "url": "page-data/joker-11/page-data.json",
+    "revision": "de8b6a8ecfdf4d56d54ba81e1d41a009"
+  },
+  {
+    "url": "page-data/joker-12/page-data.json",
+    "revision": "3edc74b49802d9d2b8bc9d518720ac63"
+  },
+  {
+    "url": "page-data/joker-13/page-data.json",
+    "revision": "70e840d20b89d98281c79d705f2a4eff"
+  },
+  {
+    "url": "page-data/joker-14/page-data.json",
+    "revision": "31c219ba89c4b2c070c471bb0fea9211"
+  },
+  {
+    "url": "page-data/joker-2/page-data.json",
+    "revision": "2a7c4e9fbba0e19975317a1256e46a21"
+  },
+  {
+    "url": "page-data/joker-3/page-data.json",
+    "revision": "73ca7733bc9da85a81a4743bfc1d18ce"
+  },
+  {
+    "url": "page-data/joker-4/page-data.json",
+    "revision": "42287848f69b5d94cf1cb36690f3e5eb"
+  },
+  {
+    "url": "page-data/joker-5/page-data.json",
+    "revision": "9aef3aca299000a36b9dd62dcb04e5ce"
+  },
+  {
+    "url": "page-data/joker-6/page-data.json",
+    "revision": "b201554501abb4b41a3c7609c686900e"
+  },
+  {
+    "url": "page-data/joker-7/page-data.json",
+    "revision": "09bec2c35e8d7dbc94581f96cfc5fead"
+  },
+  {
+    "url": "page-data/joker-8/page-data.json",
+    "revision": "750cadd9a4bb7186e313cf5fafc1a88d"
+  },
+  {
+    "url": "page-data/joker-9/page-data.json",
+    "revision": "e00daa250c40128fecf1fb61ba38184e"
+  },
+  {
+    "url": "page-data/thanos-1/page-data.json",
+    "revision": "992c9528118e859f9ade5b3364393433"
+  },
+  {
+    "url": "page-data/thanos-2/page-data.json",
+    "revision": "ea34f20243642565d485987fd4c8a77d"
+  },
+  {
+    "url": "page-data/thanos-3/page-data.json",
+    "revision": "716e1da5acb05241d2f447a8360fa206"
+  },
+  {
+    "url": "page-data/thor-1/page-data.json",
+    "revision": "f3c3fe43eb2785178cfedffe8b314012"
+  },
+  {
+    "url": "page-data/wonder-woman-1/page-data.json",
+    "revision": "dedad202345fb49b13fcbb5a700a62c0"
+  },
+  {
+    "url": "page-data/wonder-woman-2/page-data.json",
+    "revision": "06deae09499fd8788e72e80fe0043079"
+  },
+  {
+    "url": "page-data/wonder-woman-3/page-data.json",
+    "revision": "b57a0bf3e57b84ef80198001b0c4b7d5"
+  },
+  {
+    "url": "page-data/wonder-woman-4/page-data.json",
+    "revision": "fbcad62f49df5c96aafa4f69be397355"
+  },
+  {
+    "url": "page-data/wonder-woman-5/page-data.json",
+    "revision": "1e49af27b9f31a47173af58a7d45cc90"
+  },
+  {
+    "url": "page-data/wonder-woman-6/page-data.json",
+    "revision": "92900fe5378f3557222091dec3886372"
   },
   {
     "url": "manifest.webmanifest",
@@ -196,7 +296,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/app-efc66b7cedf563a08ef4.js`))) {
+  if (!resources || !(await caches.match(`/app-dd41322c9130a93b66c1.js`))) {
     return await fetch(event.request)
   }
 
