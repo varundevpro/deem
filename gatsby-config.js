@@ -8,13 +8,6 @@ module.exports = {
   plugins: [
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sitemap',
-    `gatsby-plugin-page-transitions`,
-    {
-      resolve: 'gatsby-plugin-page-transitions',
-      options: {
-        transitionTime: 500
-      }
-    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
