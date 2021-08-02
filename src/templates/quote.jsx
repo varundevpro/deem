@@ -3,10 +3,12 @@ import { Helmet } from 'react-helmet'
 import { navigate } from '@reach/router'
 import { ChevronLeftIcon, ChevronRightIcon } from '@heroicons/react/solid'
 
-import '../styles/global.css'
 import { NavLink } from '../components/nav-link'
 
 const Quote = ({ pageContext }) => {
+  const autoplay = false
+  const autoplayDelay = 30 // seconds
+
   const previous = pageContext.previous
   const current = pageContext.current
   const next = pageContext.next
@@ -18,12 +20,14 @@ const Quote = ({ pageContext }) => {
   const nextSlug = hasNext && `/${next.id === '-' ? '' : next.id}`
 
   React.useEffect(() => {
+    if (!autoplay) return
+
     const timer = setTimeout(() => {
       if (hasNext) {
         // Don't replace the first route (home page)
         navigate(nextSlug, { replace: !!hasPrevious })
       }
-    }, 10 * 1000)
+    }, autoplayDelay * 1000)
 
     return () => clearTimeout(timer)
   }, [])

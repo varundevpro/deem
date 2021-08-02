@@ -11,30 +11,291 @@
   },
   {
     "id": "interstellar-1",
-    "message": "Don't Trust The Right Thing Done For The Wrong Reason"
+    "message": "Don't Trust The Right Thing Done For The Wrong Reason",
+    "author": "interstellar"
   },
   {
     "id": "interstellar-2",
-    "message": "Accident Is The First Building Block Of Evolution"
+    "message": "Accident Is The First Building Block Of Evolution",
+    "author": "interstellar"
   },
   {
     "id": "interstellar-3",
-    "message": "Our Survival Instinct Is Our Single Greatest Source Of Inspiration"
+    "message": "Our Survival Instinct Is Our Single Greatest Source Of Inspiration",
+    "author": "interstellar"
   },
   {
     "id": "interstellar-4",
-    "message": "Once You’re A Parent, You’re The Ghost Of Your Children’s Future"
+    "message": "Once You’re A Parent, You’re The Ghost Of Your Children’s Future",
+    "author": "interstellar"
   },
   {
     "id": "interstellar-5",
-    "message": "You have to leave something behind to go forward"
+    "message": "You have to leave something behind to go forward",
+    "author": "interstellar"
   },
   {
     "id": "interstellar-6",
-    "message": "No parent should have to watch their own child die"
+    "message": "No parent should have to watch their own child die",
+    "author": "interstellar"
+  },
+  {
+    "id": "joker-1",
+    "message": "Smile, because it's easier than explaining what is killing you inside.",
+    "author": "joker"
   },
   {
     "id": "fear-street-1",
-    "message": "Power, prosperity and legacy doesn't give you happiness and peace"
+    "message": "Power, prosperity and legacy cannot give you happiness and peace"
+  },
+  {
+    "id": "joker-2",
+    "message": "Smile, because it confuses people.",
+    "author": "joker"
+  },
+  {
+    "id": "joker-3",
+    "message": "Madness is like gravity...all it takes is a little push",
+    "author": "joker"
+  },
+  {
+    "id": "joker-4",
+    "message": "If you’re good at something, never do it for free (where everything is business)",
+    "author": "joker"
+  },
+  {
+    "id": "joker-5",
+    "message": "Nobody panics when things go “according to plan”. Even if the plan is horrifying! Introduce a little anarchy. Upset the established order, and everything becomes chaos",
+    "author": "joker"
+  },
+  {
+    "id": "joker-7",
+    "message": "I believe that whatever doesn't kill you simply makes you stranger",
+    "author": "joker"
+  },
+  {
+    "id": "joker-8",
+    "message": "They Laugh At me Because I'm Different. I laugh At Then Because The're all the same",
+    "author": "joker"
+  },
+  {
+    "id": "joker-9",
+    "message": "Their morals, their code; it's a bad joke. Dropped at the first sign of trouble. They're only as good as the world allows them to be. When the chips are down these, uh, civilized people? They'll eat each other. See I'm not a monster, I'm just ahead of the curve",
+    "author": "joker"
+  },
+  {
+    "id": "joker-10",
+    "message": "The only sensible way to live in this world is without rules",
+    "author": "joker"
+  },
+  {
+    "id": "joker-11",
+    "message": "Maturity is when you realize self respect is greater than love"
+  },
+  {
+    "id": "joker-12",
+    "message": "Someday someone will break you so badly that you'll become unbreakable"
+  },
+  {
+    "id": "joker-13",
+    "message": "We mature with the damage, not with the years"
+  },
+  {
+    "id": "thor-1",
+    "message": "Life is all about growth and change",
+    "author": "thor"
+  },
+  {
+    "id": "thanos-1",
+    "message": "The hardest choices require the strongest wills",
+    "author": "Thanos"
+  },
+  {
+    "id": "thanos-2",
+    "message": "Reality is often disappointing",
+    "author": "Thanos"
+  },
+  {
+    "id": "thanos-3",
+    "message": "Dread it, run from it, destiny arrives all the same",
+    "author": "Thanos"
+  },
+  {
+    "id": "anon-1",
+    "message": "We are all bad in someone's story"
+  },
+  {
+    "id": "wonder-woman-1",
+    "message": "Sometimes you can't see what you're learning until you come out the other side",
+    "author": "wonder woman"
+  },
+  {
+    "id": "wonder-woman-2",
+    "message": "What one does when faced with the truth is more difficult than you would think",
+    "author": "wonder woman"
+  },
+  {
+    "id": "wonder-woman-3",
+    "message": "It is not about what we deserve it is about what we believe",
+    "author": "wonder woman"
+  },
+  {
+    "id": "wonder-woman-4",
+    "message": "Peace is a virtue. A state of mind, a disposition for benevolence, confidence and justice. It is not simply the absence of war",
+    "author": "wonder woman"
+  },
+  {
+    "id": "wonder-woman-5",
+    "message": "Nothing good is born from lies",
+    "author": "wonder woman"
+  },
+  {
+    "id": "wonder-woman-6",
+    "message": "Greatness is not what you think",
+    "author": "wonder woman"
+  },
+  {
+    "id": "fear-street-2",
+    "message": "It's not your future if you're pretending to be someone else",
+    "author": "Fear street"
+  },
+  {
+    "id": "shang-chi-1",
+    "message": "You can’t outrun who you really are",
+    "author": "Shang-Chi"
+  },
+  {
+    "id": "shang-chi-2",
+    "message": "You are a product of all who came before you. The legacy of your family",
+    "author": "Shang-Chi"
+  },
+  {
+    "id": "dr-strange-1",
+    "message": "Death is what gives life meaning. To know your days are numbered. Your time is short.",
+    "author": "Dr. strange"
+  },
+  {
+    "id": "dr-strange-2",
+    "message": "You cannot beat a river into submission. You have to surrender to its current and use its power as your own.",
+    "author": "Dr. strange"
+  },
+  {
+    "id": "dr-strange-3",
+    "message": "We don’t get to choose our time.",
+    "author": "Dr. strange"
+  },
+  {
+    "id": "dr-strange-4",
+    "message": "Pain is an old friend.",
+    "author": "Dr. strange"
+  },
+  {
+    "id": "dr-strange-5",
+    "message": "We never lose our demons. We only learn to live above them.",
+    "author": "Dr. strange"
+  },
+  {
+    "id": "batman-1",
+    "message": "The training is nothing! Will is everything!",
+    "author": "batman"
+  },
+  {
+    "id": "batman-2",
+    "message": "The first time I stole so that I wouldn’t starve, yes. I lost many assumptions about the simple nature of right and wrong. And when I traveled, I learned the fear before a crime and the thrill of success. But I never became one of them.",
+    "author": "batman"
+  },
+  {
+    "id": "batman-3",
+    "message": "To conquer fear, you must become fear.",
+    "author": "batman"
+  },
+  {
+    "id": "batman-4",
+    "message": "You always fear what you don’t understand.",
+    "author": "batman"
+  },
+  {
+    "id": "batman-5",
+    "message": "Justice is about harmony, revenge is about you making yourself feel better.",
+    "author": "batman"
+  },
+  {
+    "id": "batman-6",
+    "message": "The training is nothing! Will is everything!",
+    "author": "batman"
+  },
+  {
+    "id": "batman-7",
+    "message": "People need dramatic examples to shake them out of apathy and I can’t do that as Bruce Wayne. As a man, I’m flesh and blood, I can be ignored, I can be destroyed, but as a symbol… as a symbol I can be incorruptible, I can be everlasting.",
+    "author": "batman"
+  },
+  {
+    "id": "batman-8",
+    "message": "It’s not who you are underneath, it’s what you do that defines you.",
+    "author": "batman"
+  },
+  {
+    "id": "batman-9",
+    "message": "If you make yourself more than just a man, if you devote yourself to an ideal, and if they can’t stop you, then you become something else entirely.",
+    "author": "batman"
+  },
+  {
+    "id": "batman-10",
+    "message": "Criminals thrive on the indulgence of society’s understanding.",
+    "author": "batman"
+  },
+  {
+    "id": "batman-11",
+    "message": "Create enough hunger and everyone becomes a criminal.",
+    "author": "batman"
+  },
+  {
+    "id": "dark-knight-1",
+    "message": "You either die a hero or live long enough to become the villain.",
+    "author": "dark knight"
+  },
+  {
+    "id": "dark-knight-2",
+    "message": "Sometimes the truth isn’t good enough. Sometimes people deserve more. Sometimes people deserve to have their faith rewarded.",
+    "author": "dark knight"
+  },
+  {
+    "id": "dark-knight-3",
+    "message": "In their last moments, people show you who they really are.",
+    "author": "dark knight"
+  },
+  {
+    "id": "dark-knight-4",
+    "message": "Maybe it’s time we all stop trying to outsmart the truth and let it have its day.",
+    "author": "dark knight"
+  },
+  {
+    "id": "dark-knight-5",
+    "message": "It doesn’t matter who we are, what matters is our plan.",
+    "author": "dark knight"
+  },
+  {
+    "id": "dark-knight-6",
+    "message": "Peace has cost you your strength! Victory has defeated you!",
+    "author": "dark knight"
+  },
+  {
+    "id": "dark-knight-7",
+    "message": "Suffering builds character.",
+    "author": "dark knight"
+  },
+  {
+    "id": "superman-1",
+    "message": "Your life falling apart doesn’t mean you’re special. It means you’re human.",
+    "author": "superman"
+  },
+  {
+    "id": "superman-2",
+    "message": "Every power comes with its own burden.",
+    "author": "superman"
+  },
+  {
+    "id": "joker-14",
+    "message": "Things and people change, life will go on with or without you"
   }
 ]

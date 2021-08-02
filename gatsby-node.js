@@ -13,9 +13,9 @@ exports.onPreInit = () => {
   }
 
   if (hasDuplicates(quotes.map((q) => q.id))) {
-    throw new Error("Duplicate quote id's found.")
+    throw new Error("Duplicate quote ids found.")
   } else {
-    console.log('No Duplicates found.')
+    console.log('No duplicates found.')
   }
 }
 

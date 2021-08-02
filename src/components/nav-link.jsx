@@ -5,7 +5,7 @@ export const NavLink = ({ children, href, disabled = false }) => {
   if (!disabled) {
     return (
       <li>
-        <Link className='button' to={href} replace>
+        <Link className='button' to={href}>
           {children}
         </Link>
       </li>

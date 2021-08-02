@@ -10,6 +10,10 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
-  "eslint.validate": ["javascript", "javascriptreact"],
-  "editor.tabSize": 2
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact"
+  ],
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on"
 }
