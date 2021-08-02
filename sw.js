@@ -27,7 +27,7 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-fefa7cab94954a05cca8.js"
+    "url": "webpack-runtime-cebeb5c8d8ff25001566.js"
   },
   {
     "url": "framework-11c502cb296d783e31f7.js"
@@ -40,7 +40,7 @@ self.__precacheManifest = [
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "cdf68952e9aac5eb04d5cfa570b6699a"
+    "revision": "115a16f666358f14851b0cac4302117b"
   },
   {
     "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-1d8df30d050d33a356f9.js"
@@ -57,22 +57,118 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/app-data.json",
-    "revision": "64544297ec5f15f26a67314073dc3ae3"
+    "revision": "f13711e686757fab5423ac5447b09fc9"
   },
   {
     "url": "page-data/404.html/page-data.json",
     "revision": "73b53c376c0c6df9ec96677d201cf94b"
   },
   {
-    "url": "component---src-templates-quote-jsx-109e687d186e5157ccb1.js"
+    "url": "component---src-templates-quote-jsx-da585279b8c189e63243.js"
   },
   {
     "url": "page-data/anon-1/page-data.json",
-    "revision": "c6752d8d4766cb17b7b4c42f08083352"
+    "revision": "0ba8dc929d77058f0d2a3540280bf51d"
+  },
+  {
+    "url": "page-data/batman-1/page-data.json",
+    "revision": "e0c84da406831c43f42f02b746397063"
+  },
+  {
+    "url": "page-data/batman-10/page-data.json",
+    "revision": "706e39948fc1abede7df3a2091a083ee"
+  },
+  {
+    "url": "page-data/batman-11/page-data.json",
+    "revision": "e4c73b64b1a62523c5799cbde0ca62bd"
+  },
+  {
+    "url": "page-data/batman-2/page-data.json",
+    "revision": "820dd80080fc22a8d546a9ab5c2d3572"
+  },
+  {
+    "url": "page-data/batman-3/page-data.json",
+    "revision": "2b5726abc11a7aa71d4db63baf823dae"
+  },
+  {
+    "url": "page-data/batman-4/page-data.json",
+    "revision": "fad7e13aedd723c77c8e124eb1db867c"
+  },
+  {
+    "url": "page-data/batman-5/page-data.json",
+    "revision": "13651b1e64e43611ba6b8514e3e3acec"
+  },
+  {
+    "url": "page-data/batman-6/page-data.json",
+    "revision": "84b704f62b058007416a0e07091de1b6"
+  },
+  {
+    "url": "page-data/batman-7/page-data.json",
+    "revision": "6fbecb467b7a3d8920900f160344464d"
+  },
+  {
+    "url": "page-data/batman-8/page-data.json",
+    "revision": "6f7d9aff72cec5bb084099d4d8e5b5d9"
+  },
+  {
+    "url": "page-data/batman-9/page-data.json",
+    "revision": "92948e1b7d355222b37e9790d39ad29e"
+  },
+  {
+    "url": "page-data/dark-knight-1/page-data.json",
+    "revision": "8fce150b6f417cf3e356adeda1ef30c7"
+  },
+  {
+    "url": "page-data/dark-knight-2/page-data.json",
+    "revision": "1dc2fe256075010dc2f39b120151bff7"
+  },
+  {
+    "url": "page-data/dark-knight-3/page-data.json",
+    "revision": "7f580a0617a163ffbc3786a907daf61e"
+  },
+  {
+    "url": "page-data/dark-knight-4/page-data.json",
+    "revision": "5d3e58284d67b4009c511bdad34cf35b"
+  },
+  {
+    "url": "page-data/dark-knight-5/page-data.json",
+    "revision": "14ec937fef502499059547eb789a992b"
+  },
+  {
+    "url": "page-data/dark-knight-6/page-data.json",
+    "revision": "95138607090c63f8cb366ed37d454642"
+  },
+  {
+    "url": "page-data/dark-knight-7/page-data.json",
+    "revision": "dba9e4f7c1782e64af9a19bd13497f48"
+  },
+  {
+    "url": "page-data/dr-strange-1/page-data.json",
+    "revision": "65ecf73b56f90d345a0829a1a5efd064"
+  },
+  {
+    "url": "page-data/dr-strange-2/page-data.json",
+    "revision": "8db571b93372bbe91619b5fd137261a0"
+  },
+  {
+    "url": "page-data/dr-strange-3/page-data.json",
+    "revision": "4ddca74c2e27ebb1bfc3aeea470f2095"
+  },
+  {
+    "url": "page-data/dr-strange-4/page-data.json",
+    "revision": "fa6359e76e4af9363bfc65e131dc72f4"
+  },
+  {
+    "url": "page-data/dr-strange-5/page-data.json",
+    "revision": "5bb89e2dfffb9562719a69267488afe5"
   },
   {
     "url": "page-data/fear-street-1/page-data.json",
     "revision": "c075f7dcaca1b731c1d0f12eedc3c602"
+  },
+  {
+    "url": "page-data/fear-street-2/page-data.json",
+    "revision": "76d37f06d82c6e62f9aca71c40609093"
   },
   {
     "url": "page-data/frank-1/page-data.json",
@@ -124,11 +220,11 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/joker-13/page-data.json",
-    "revision": "70e840d20b89d98281c79d705f2a4eff"
+    "revision": "64f95a0118802f738ea18503d4723246"
   },
   {
     "url": "page-data/joker-14/page-data.json",
-    "revision": "31c219ba89c4b2c070c471bb0fea9211"
+    "revision": "ce0c0f160785756328b46331b8269062"
   },
   {
     "url": "page-data/joker-2/page-data.json",
@@ -163,8 +259,24 @@ self.__precacheManifest = [
     "revision": "e00daa250c40128fecf1fb61ba38184e"
   },
   {
+    "url": "page-data/shang-chi-1/page-data.json",
+    "revision": "7597d17cf6eaf0b698d32b1b9e8a163d"
+  },
+  {
+    "url": "page-data/shang-chi-2/page-data.json",
+    "revision": "73b6d9d739a7db49ad2bb0f34542422d"
+  },
+  {
+    "url": "page-data/superman-1/page-data.json",
+    "revision": "d0a71a8b6bc6423fe73d3404f5fdd297"
+  },
+  {
+    "url": "page-data/superman-2/page-data.json",
+    "revision": "092854b6a083ce6622198fc4c571bc12"
+  },
+  {
     "url": "page-data/thanos-1/page-data.json",
-    "revision": "992c9528118e859f9ade5b3364393433"
+    "revision": "b19819f36802f5d67002e3101fd52935"
   },
   {
     "url": "page-data/thanos-2/page-data.json",
@@ -176,31 +288,31 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/thor-1/page-data.json",
-    "revision": "f3c3fe43eb2785178cfedffe8b314012"
+    "revision": "fb0141c1117b48587b2dcc5187cdbd8c"
   },
   {
     "url": "page-data/wonder-woman-1/page-data.json",
-    "revision": "dedad202345fb49b13fcbb5a700a62c0"
+    "revision": "e3c9136480f40c17c55f22368eeeb7f0"
   },
   {
     "url": "page-data/wonder-woman-2/page-data.json",
-    "revision": "06deae09499fd8788e72e80fe0043079"
+    "revision": "fda8595bdf44968f394269cab06748f5"
   },
   {
     "url": "page-data/wonder-woman-3/page-data.json",
-    "revision": "b57a0bf3e57b84ef80198001b0c4b7d5"
+    "revision": "55c5583590a07e1f44e5718d2063e1b1"
   },
   {
     "url": "page-data/wonder-woman-4/page-data.json",
-    "revision": "fbcad62f49df5c96aafa4f69be397355"
+    "revision": "ff83e656cf18abb3d6c9e46370a84692"
   },
   {
     "url": "page-data/wonder-woman-5/page-data.json",
-    "revision": "1e49af27b9f31a47173af58a7d45cc90"
+    "revision": "c366527bdd50a8a50c0db8d4c484e0bb"
   },
   {
     "url": "page-data/wonder-woman-6/page-data.json",
-    "revision": "92900fe5378f3557222091dec3886372"
+    "revision": "45dc83d1db00748c2ed2c1666dfac5e4"
   },
   {
     "url": "manifest.webmanifest",
