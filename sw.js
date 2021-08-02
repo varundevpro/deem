@@ -236,19 +236,15 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/joker-4/page-data.json",
-    "revision": "42287848f69b5d94cf1cb36690f3e5eb"
+    "revision": "6d0add2515cb8e09b0b86a9eb8456984"
   },
   {
     "url": "page-data/joker-5/page-data.json",
-    "revision": "9aef3aca299000a36b9dd62dcb04e5ce"
-  },
-  {
-    "url": "page-data/joker-6/page-data.json",
-    "revision": "b201554501abb4b41a3c7609c686900e"
+    "revision": "5476d7af26c09d6fe6f9d0257c7f56d7"
   },
   {
     "url": "page-data/joker-7/page-data.json",
-    "revision": "09bec2c35e8d7dbc94581f96cfc5fead"
+    "revision": "e89ca762e7297896e1a53432819465c0"
   },
   {
     "url": "page-data/joker-8/page-data.json",
