@@ -67,6 +67,18 @@ self.__precacheManifest = [
     "url": "component---src-templates-quote-jsx-da585279b8c189e63243.js"
   },
   {
+    "url": "page-data/african-wisdom-1/page-data.json",
+    "revision": "a291366e03c5c4cb85c2084f21f7c07c"
+  },
+  {
+    "url": "page-data/african-wisdom-2/page-data.json",
+    "revision": "967b792565b26c14da9a47f7f3c929da"
+  },
+  {
+    "url": "page-data/african-wisdom-3/page-data.json",
+    "revision": "4d170099da7e35969d091e652c68dd8b"
+  },
+  {
     "url": "page-data/anon-1/page-data.json",
     "revision": "0ba8dc929d77058f0d2a3540280bf51d"
   },
@@ -224,7 +236,7 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/joker-14/page-data.json",
-    "revision": "ce0c0f160785756328b46331b8269062"
+    "revision": "8754d7802fed3169ef7aba439ecc9486"
   },
   {
     "url": "page-data/joker-2/page-data.json",
