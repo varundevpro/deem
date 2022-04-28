@@ -72,11 +72,11 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/african-wisdom-2/page-data.json",
-    "revision": "967b792565b26c14da9a47f7f3c929da"
+    "revision": "1f29916996bf5cff644eb6824c8216d2"
   },
   {
     "url": "page-data/african-wisdom-3/page-data.json",
-    "revision": "4d170099da7e35969d091e652c68dd8b"
+    "revision": "1857506985c5b5364e41eaaf674c2703"
   },
   {
     "url": "page-data/anon-1/page-data.json",
@@ -293,6 +293,14 @@ self.__precacheManifest = [
   {
     "url": "page-data/thanos-3/page-data.json",
     "revision": "716e1da5acb05241d2f447a8360fa206"
+  },
+  {
+    "url": "page-data/the-batman-1/page-data.json",
+    "revision": "1a2374a7fcfc83e118b8ff2f842942c5"
+  },
+  {
+    "url": "page-data/the-batman-2/page-data.json",
+    "revision": "61a2273e0adec9b55ce16e7ea6a780e0"
   },
   {
     "url": "page-data/thor-1/page-data.json",
