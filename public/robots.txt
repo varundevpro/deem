@@ -1,0 +1,15 @@
+User-Agent: *
+Allow: /
+Content-Signal: search=yes,ai-train=no,use=reference
+
+User-Agent: CloudflareBrowserRenderingCrawler
+User-Agent: Amazonbot
+User-Agent: Applebot-Extended
+User-Agent: Bytespider
+User-Agent: CCBot
+User-Agent: ClaudeBot
+User-Agent: Google-Extended
+User-Agent: GPTBot
+User-Agent: meta-externalagent
+User-Agent: ia_archiver
+Disallow: /

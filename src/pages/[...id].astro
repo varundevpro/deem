@@ -1,0 +1,87 @@
+---
+import Layout from '../layouts/Layout.astro';
+import quotesData from '../data/quotes.json';
+
+export function getStaticPaths() {
+  const len = quotesData.length;
+  
+  return quotesData.map((quote, index) => {
+    // Elegant modulo arithmetic to wrap array indices
+    const prevQuote = quotesData[(index - 1 + len) % len];
+    const nextQuote = quotesData[(index + 1) % len];
+
+    const base = import.meta.env.BASE_URL;
+    const slug = quote.id === '-' ? undefined : quote.id;
+    const prevSlug = prevQuote.id === '-' ? base : `${base}/${prevQuote.id}`;
+    const nextSlug = nextQuote.id === '-' ? base : `${base}/${nextQuote.id}`;
+
+    return {
+      params: { id: slug },
+      props: { quote, prevSlug, nextSlug },
+    };
+  });
+}
+
+const { quote, prevSlug, nextSlug } = Astro.props;
+const author = quote.author || 'Anonymous';
+const truncatedMessage = quote.message.length > 50 ? quote.message.substring(0, 50) + '...' : quote.message;
+const title = `Quotes - ${truncatedMessage}`;
+---
+
+<Layout title={title} description={quote.message}>
+  <figure class="quote-container fade-in" id="quote-container">
+    <blockquote class="quote-text" id="quote-text">
+      <p>{quote.message}</p>
+    </blockquote>
+    
+    <div class="author_container">
+      <figcaption class="quote-author" id="quote-author">
+        {author}
+      </figcaption>
+      
+      <nav>
+        <ul>
+          <li>
+            <a href={prevSlug} class="button" aria-label="Previous quote" id="left-button">
+              <svg class="icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clip-rule="evenodd" />
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href={nextSlug} class="button" aria-label="Next quote" id="right-button">
+              <svg class="icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </figure>
+</Layout>
+
+<script>
+  import { navigate } from 'astro:transitions/client';
+
+  // Handle keyboard navigation correctly with View Transitions
+  document.addEventListener('astro:page-load', () => {
+    const leftButton = document.getElementById('left-button') as HTMLAnchorElement | null;
+    const rightButton = document.getElementById('right-button') as HTMLAnchorElement | null;
+
+    const handleKeydown = (e: KeyboardEvent) => {
+      if (e.key === 'ArrowLeft' && leftButton) {
+        navigate(leftButton.href);
+      } else if ((e.key === 'ArrowRight' || e.key === 'Space') && rightButton) {
+        navigate(rightButton.href);
+      }
+    };
+
+    document.addEventListener('keydown', handleKeydown);
+
+    // Clean up event listener when the page unloads
+    document.addEventListener('astro:before-preparation', () => {
+      document.removeEventListener('keydown', handleKeydown);
+    }, { once: true });
+  });
+</script>
